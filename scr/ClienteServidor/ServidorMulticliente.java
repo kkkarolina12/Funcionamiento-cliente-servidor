@@ -1,3 +1,9 @@
+//En esta versión multicliente, el servidor permanece en ejecución 
+//continua mediante un bucle while(true), aceptando múltiples conexiones de clientes. 
+//Cada vez que un cliente se conecta, se crea un hilo independiente usando la clase ConexionCliente, 
+//lo que permite atender a varios clientes al mismo tiempo. De esta forma, 
+//se mejora el ejemplo original monocliente y se adapta a un funcionamiento multicliente real.
+
 package ClienteServidor;
 
 import java.io.IOException;
